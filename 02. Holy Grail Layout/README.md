@@ -1,4 +1,4 @@
-# Designchallenge
+# Design challenge
 
 ## 02. Holy Grail Layout
 
