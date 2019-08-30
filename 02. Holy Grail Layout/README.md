@@ -28,4 +28,7 @@ Desktop Layout
 Mobile Layout
 ![Narrow screen layout](narrow.jpg)
 
+Animation of the responsiveness
+![animation of the responsiveness](holy.gif)
+
 Make sure it also works with a lot of content!
