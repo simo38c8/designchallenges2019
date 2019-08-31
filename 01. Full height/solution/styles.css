@@ -1,15 +1,18 @@
 body {
-    margin: 0;
+  margin: 0;
 }
 
 header {
-    background-color: lightskyblue;
+  background-color: lightskyblue;
 }
 
 main {
-    background-color: lightcyan;
+  background-color: lightcyan;
+  flex-grow: 1;
 }
 
 footer {
-    background-color: lightblue;
+  background-color: lightblue;
+  display: flex;
+  flex-direction: column;
 }
