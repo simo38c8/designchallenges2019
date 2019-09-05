@@ -17,3 +17,7 @@ NB! Remember to copy it to the right folder.
 ---
 
 Use CSS Grid for the layout structure and place post-it notes inside as you see above.
+
+**_Extra credit_**
+
+Try to make it responsive. Ask yourself how that might come about.
