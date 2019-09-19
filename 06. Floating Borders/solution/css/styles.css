@@ -1,0 +1,66 @@
+.card {
+  width: 60vmin;
+  height: 60vmin;
+  background: #219388;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  padding: 4vmin 5vmin;
+  font-size: 7.75vmin;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.15;
+  margin: 0;
+  height: 100%;
+  position: relative;
+}
+
+.content::before {
+  content: "";
+  left: -20px;
+  top: -20px;
+  border-left: 6px solid white;
+  border-top: 6px solid white;
+  width: calc(30% - 20px);
+  height: calc(30% - 20px);
+  position: absolute;
+}
+
+.content::after {
+  content: "";
+  right: -20px;
+  bottom: -20px;
+  border-right: 6px solid white;
+  border-bottom: 6px solid white;
+  width: calc(30% - 20px);
+  height: calc(30% - 20px);
+  position: absolute;
+}
+
+p {
+  margin: 0;
+}
+
+footer {
+  font-weight: 200;
+  letter-spacing: 1px;
+  font-style: italic;
+  line-height: 1.1;
+  color: #fff;
+  font-size: 5.75vmin;
+  margin-top: auto;
+}
+
+/* Demo set up */
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  background: #26438b;
+}
